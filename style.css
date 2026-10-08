@@ -1,0 +1,83 @@
+/* Global box-sizing standard */
+* {
+  box-sizing: border-box;
+}
+
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Social Distancing: add margin-bottom to h1 and p tags */
+h1, p {
+  margin-bottom: 20px;
+}
+
+/* [Mission 1] Styling Your Business Card (.card) */
+.card {
+  background-color: #ffffff;
+  max-width: 400px;
+  margin: 0 auto; /* Centers the card horizontally */
+  
+  /* Visualize Border */
+  border: 2px solid #333;
+  
+  /* Internal Breathing Space */
+  padding: 20px;
+  
+  /* Social Distancing */
+  margin-bottom: 20px; 
+  border-radius: 8px;
+}
+
+.profile-photo {
+  display: block;
+  margin: 0 auto 15px auto;
+  border-radius: 50%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="email"] {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Separate your buttons by adding margin-right */
+button {
+  padding: 10px 15px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  color: #666;
+}
